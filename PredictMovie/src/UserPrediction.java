@@ -7,9 +7,9 @@ public class UserPrediction{
         this.movies = movies;
     }
 
-    public Movie getUserPrediction(String user_predict) {
+    public Movie getUserPrediction(String userPredict) {
         for (Movie movie : movies) {
-            if (movie.getTitle().toLowerCase().equals(user_predict.toLowerCase())) {
+            if (movie.getTitle().toLowerCase().equals(userPredict.toLowerCase())) {
                 return movie;
             }
 
